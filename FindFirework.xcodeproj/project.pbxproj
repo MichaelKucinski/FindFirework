@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93AACD024DA8E370032CAA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AACCF24DA8E370032CAA4 /* AppDelegate.swift */; };
+		D93AACD224DA8E370032CAA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AACD124DA8E370032CAA4 /* SceneDelegate.swift */; };
+		D93AACD424DA8E370032CAA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93AACD324DA8E370032CAA4 /* ViewController.swift */; };
+		D93AACD724DA8E370032CAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93AACD524DA8E370032CAA4 /* Main.storyboard */; };
+		D93AACD924DA8E380032CAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93AACD824DA8E380032CAA4 /* Assets.xcassets */; };
+		D93AACDC24DA8E380032CAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93AACDA24DA8E380032CAA4 /* LaunchScreen.storyboard */; };
+		D93AACE524DA922D0032CAA4 /* EmojiFireworksAndExplosionsPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D93AACE424DA922D0032CAA4 /* EmojiFireworksAndExplosionsPackage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D93AACCC24DA8E370032CAA4 /* FindFirework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindFirework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93AACCF24DA8E370032CAA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D93AACD124DA8E370032CAA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D93AACD324DA8E370032CAA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D93AACD624DA8E370032CAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D93AACD824DA8E380032CAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93AACDB24DA8E380032CAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D93AACDD24DA8E380032CAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93AACC924DA8E370032CAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93AACE524DA922D0032CAA4 /* EmojiFireworksAndExplosionsPackage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93AACC324DA8E370032CAA4 = {
+			isa = PBXGroup;
+			children = (
+				D93AACCE24DA8E370032CAA4 /* FindFirework */,
+				D93AACCD24DA8E370032CAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93AACCD24DA8E370032CAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93AACCC24DA8E370032CAA4 /* FindFirework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93AACCE24DA8E370032CAA4 /* FindFirework */ = {
+			isa = PBXGroup;
+			children = (
+				D93AACCF24DA8E370032CAA4 /* AppDelegate.swift */,
+				D93AACD124DA8E370032CAA4 /* SceneDelegate.swift */,
+				D93AACD324DA8E370032CAA4 /* ViewController.swift */,
+				D93AACD524DA8E370032CAA4 /* Main.storyboard */,
+				D93AACD824DA8E380032CAA4 /* Assets.xcassets */,
+				D93AACDA24DA8E380032CAA4 /* LaunchScreen.storyboard */,
+				D93AACDD24DA8E380032CAA4 /* Info.plist */,
+			);
+			path = FindFirework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93AACCB24DA8E370032CAA4 /* FindFirework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93AACE024DA8E380032CAA4 /* Build configuration list for PBXNativeTarget "FindFirework" */;
+			buildPhases = (
+				D93AACC824DA8E370032CAA4 /* Sources */,
+				D93AACC924DA8E370032CAA4 /* Frameworks */,
+				D93AACCA24DA8E370032CAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindFirework;
+			packageProductDependencies = (
+				D93AACE424DA922D0032CAA4 /* EmojiFireworksAndExplosionsPackage */,
+			);
+			productName = FindFirework;
+			productReference = D93AACCC24DA8E370032CAA4 /* FindFirework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93AACC424DA8E370032CAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Michael Kucinski";
+				TargetAttributes = {
+					D93AACCB24DA8E370032CAA4 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = D93AACC724DA8E370032CAA4 /* Build configuration list for PBXProject "FindFirework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93AACC324DA8E370032CAA4;
+			packageReferences = (
+				D93AACE324DA922D0032CAA4 /* XCRemoteSwiftPackageReference "EmitterFireworksAndExplosionsPackage" */,
+			);
+			productRefGroup = D93AACCD24DA8E370032CAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93AACCB24DA8E370032CAA4 /* FindFirework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93AACCA24DA8E370032CAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93AACDC24DA8E380032CAA4 /* LaunchScreen.storyboard in Resources */,
+				D93AACD924DA8E380032CAA4 /* Assets.xcassets in Resources */,
+				D93AACD724DA8E370032CAA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93AACC824DA8E370032CAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93AACD424DA8E370032CAA4 /* ViewController.swift in Sources */,
+				D93AACD024DA8E370032CAA4 /* AppDelegate.swift in Sources */,
+				D93AACD224DA8E370032CAA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D93AACD524DA8E370032CAA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93AACD624DA8E370032CAA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D93AACDA24DA8E380032CAA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D93AACDB24DA8E380032CAA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D93AACDE24DA8E380032CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D93AACDF24DA8E380032CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D93AACE124DA8E380032CAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X8KYDPT79;
+				INFOPLIST_FILE = FindFirework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LogicEngineDesigns.MemeGoViral.FindFirework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D93AACE224DA8E380032CAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X8KYDPT79;
+				INFOPLIST_FILE = FindFirework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.LogicEngineDesigns.MemeGoViral.FindFirework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93AACC724DA8E370032CAA4 /* Build configuration list for PBXProject "FindFirework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93AACDE24DA8E380032CAA4 /* Debug */,
+				D93AACDF24DA8E380032CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93AACE024DA8E380032CAA4 /* Build configuration list for PBXNativeTarget "FindFirework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93AACE124DA8E380032CAA4 /* Debug */,
+				D93AACE224DA8E380032CAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D93AACE324DA922D0032CAA4 /* XCRemoteSwiftPackageReference "EmitterFireworksAndExplosionsPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MichaelKucinski/EmitterFireworksAndExplosionsPackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D93AACE424DA922D0032CAA4 /* EmojiFireworksAndExplosionsPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D93AACE324DA922D0032CAA4 /* XCRemoteSwiftPackageReference "EmitterFireworksAndExplosionsPackage" */;
+			productName = EmojiFireworksAndExplosionsPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D93AACC424DA8E370032CAA4 /* Project object */;
+}

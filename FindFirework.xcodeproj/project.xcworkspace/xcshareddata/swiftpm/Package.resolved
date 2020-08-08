@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EmojiFireworksAndExplosionsPackage",
+        "repositoryURL": "https://github.com/MichaelKucinski/EmitterFireworksAndExplosionsPackage.git",
+        "state": {
+          "branch": null,
+          "revision": "8977b0af41cbb591bcbe7a1de44092ebf68c1888",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
